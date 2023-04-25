@@ -2,7 +2,7 @@
   "name": "lookscanned.io",
   "version": "0.0.0",
   "scripts": {
-    "serve": "vite preview",
+    "serve": "vite preview --host 0.0.0.0",
     "build": "vite build",
     "test:unit": "vitest --environment jsdom",
     "lint": "eslint src --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
